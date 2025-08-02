@@ -1,0 +1,53 @@
+{
+  "name": "SafeBridge - 災害時AIガイド＆地域連携",
+  "short_name": "SafeBridge",
+  "description": "災害時の迅速な避難をサポートする総合ガイドアプリ",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ef4444",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "ja",
+  "categories": ["productivity", "utilities", "safety"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "避難所マップ",
+      "short_name": "マップ",
+      "description": "現在地周辺の避難所を確認",
+      "url": "/map",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "AI相談",
+      "short_name": "チャット",
+      "description": "AIに災害時の相談",
+      "url": "/chat",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
